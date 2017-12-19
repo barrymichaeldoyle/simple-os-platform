@@ -1,65 +1,49 @@
 <!-- TITLE/ -->
 
-<h1>Array Multi Sort</h1>
+<h1>GUID</h1>
 
 <!-- /TITLE -->
 
 
 <!-- DESCRIPTION/ -->
 
-Array helper for soring array object on multiple key values with ordering
+A helper that returns a guid
 
 <!-- /DESCRIPTION -->
 
 
 <!-- BADGES/ -->
 
-<span class="badge-nodeico"><a href="https://www.npmjs.com/package/@iplatformglobal/array-multi-sort" title="Nodei.co badge"><img src="https://nodei.co/npm/@iplatformglobal/array-multi-sort.png" alt="Nodei.co badge" /></a></span>
+<span class="badge-nodeico"><a href="https://www.npmjs.com/package/@iplatformglobal/guid" title="Nodei.co badge"><img src="https://nodei.co/npm/@iplatformglobal/guid.png" alt="Nodei.co badge" /></a></span>
 <br class="badge-separator" />
-<span class="badge-travisci"><a href="http://travis-ci.org/iPlatformGlobal/array-multi-sort" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/iPlatformGlobal/array-multi-sort/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/@iplatformglobal/array-multi-sort" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@iplatformglobal/array-multi-sort.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@iplatformglobal/array-multi-sort" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@iplatformglobal/array-multi-sort.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/iPlatformGlobal/array-multi-sort" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/iPlatformGlobal/array-multi-sort.svg" alt="Dependency Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/iPlatformGlobal/guid" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/iPlatformGlobal/guid/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@iplatformglobal/guid" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@iplatformglobal/guid.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@iplatformglobal/guid" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@iplatformglobal/guid.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/iPlatformGlobal/guid" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/iPlatformGlobal/guid.svg" alt="Dependency Status" /></a></span>
 
 <!-- /BADGES -->
 
 
 ## Instalation
 ```
-yarn add @iplatformglobal/array-multi-sort or
+yarn add @iplatformglobal/guid or
 
 or
 
-npm install @iplatformglobal/array-multi-sort
+npm install @iplatformglobal/guid
 ```
 
 ## Usage
 
-Sorts an array against keys with defined order direction
+Returns a guid
 
 ```javascript
-// Data to be sorted
-const data = [{
-  id: 1,
-  name: 'Tester',
-  age: 20,
-}, {
-  id: 1,
-  name: 'Taster',
-  age: 21,
-}, {
-  id: 1,
-  name: 'Tester',
-  age: 21,
-}];
+import guid from '@iplatformglobal/guid'
 
-// Instructions for how to sort the data
-const sortColumns = [{
-  key: 'name',
-  direction: 'ASC',
-}];
+// Generate a guid and store it in a variable named id
+const id = guid();
 
-arrayMultiSort(data, sortColumns)
+// Eg. id: "045d480f-8b07-0728-a39f-cdcb5bbf5730"
 
 ```
 ## Testing
@@ -87,7 +71,7 @@ There are git hooks configured to ensure commit message format as well as test a
 
 <h2>History</h2>
 
-<a href="https://github.com/iPlatformGlobal/array-multi-sort/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/iPlatformGlobal/guid/releases">Discover the release history by heading on over to the releases page.</a>
 
 <!-- /HISTORY -->
 
