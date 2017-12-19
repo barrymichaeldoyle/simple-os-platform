@@ -2,7 +2,7 @@
 	"title": "GUID",
 	"name": "@iplatformglobal/guid",
 	"homepage": "https://www.iplatform.com",
-	"description": "Array helper for soring array object on multiple key values with ordering",
+	"description": "A helper that returns a guid",
 	"license": "MIT",
 	"browsers": true,
 	"author": "2017+ iPlatform <software@iplatform.co.za> (https://www.iplatform.com)",
