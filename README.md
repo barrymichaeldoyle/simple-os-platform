@@ -24,7 +24,7 @@ A helper that returns a guid
 <!-- /BADGES -->
 
 
-## Instalation
+## Installation
 ```
 yarn add @iplatformglobal/guid or
 
