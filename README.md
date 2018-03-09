@@ -1,51 +1,55 @@
 <!-- TITLE/ -->
 
-<h1>GUID</h1>
+<h1>get-os</h1>
 
 <!-- /TITLE -->
 
 
 <!-- DESCRIPTION/ -->
+<h2>NB: This package hasn't been deployed to npm yet, and lacks test coverage. That will be coming soon!</h2>
 
-A helper that returns a guid
+A helper that returns the current user's operating system. Eg. "Windows", "Linux", "Android", "MacOS", "iOS" etc.
 
 <!-- /DESCRIPTION -->
 
 
 <!-- BADGES/ -->
 
-<span class="badge-nodeico"><a href="https://www.npmjs.com/package/@iplatformglobal/guid" title="Nodei.co badge"><img src="https://nodei.co/npm/@iplatformglobal/guid.png" alt="Nodei.co badge" /></a></span>
+<span class="badge-nodeico"><a href="https://www.npmjs.com/package/@BarryMichaelDoyle/get-os" title="Nodei.co badge"><img src="https://nodei.co/npm/@BarryMichaelDoyle/get-os.png" alt="Nodei.co badge" /></a></span>
 <br class="badge-separator" />
-<span class="badge-travisci"><a href="http://travis-ci.org/iPlatformGlobal/guid" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/iPlatformGlobal/guid/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/@iplatformglobal/guid" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@iplatformglobal/guid.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@iplatformglobal/guid" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@iplatformglobal/guid.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/iPlatformGlobal/guid" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/iPlatformGlobal/guid.svg" alt="Dependency Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/BarryMichaelDoyle/get-os" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/BarryMichaelDoyle/get-os/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@BarryMichaelDoyle/get-os" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@BarryMichaelDoyle/get-os.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@BarryMichaelDoyle/get-os" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@BarryMichaelDoyle/get-os.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/BarryMichaelDoyle/get-os" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/BarryMichaelDoyle/get-os.svg" alt="Dependency Status" /></a></span>
 
 <!-- /BADGES -->
 
 
 ## Installation
 ```
-yarn add @iplatformglobal/guid or
+yarn add @barrymichaeldoyle/get-os or
 
 or
 
-npm install @iplatformglobal/guid
+npm install @barrymichaeldoyle/get-os
 ```
 
 ## Usage
 
-Returns a guid
+Here's an example of a component that renders a shortcut phrase based off the user's operating system:
 
 ```javascript
-import guid from '@iplatformglobal/guid'
+import getOS from '@barrymichaeldoyle/get-os'
 
-// Generate a guid and store it in a variable named id
-const id = guid();
+// Renders 'cmd' if operating system is MacOS, otherwise renders 'ctrl'
+const ShortcutPhrase = () => `${getOS() === 'MacOS' ? 'cmd' : 'ctrl'} + click`;
 
-// Eg. id: "045d480f-8b07-0728-a39f-cdcb5bbf5730"
+export default ShortcutPhrase
 
 ```
+
+If the user is using a Mac, the shortcut phrase is 'cmd + click', otherwise it is 'ctrl + click'.
+
 ## Testing
 
 Testing is handled by `Jest` and the packages has the following commands setup
@@ -71,7 +75,7 @@ There are git hooks configured to ensure commit message format as well as test a
 
 <h2>History</h2>
 
-<a href="https://github.com/iPlatformGlobal/guid/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/BarryMichaelDoyle/get-os/releases">Discover the release history by heading on over to the releases page.</a>
 
 <!-- /HISTORY -->
 
@@ -82,7 +86,7 @@ There are git hooks configured to ensure commit message format as well as test a
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2017+ <a href="http://www.iplatform.com">iPlatform</a></li></ul>
+<ul><li>Copyright &copy; <a href="https://www.barrymichaeldoyle.com">Barry Michael Doyle</a></li></ul>
 
 and licensed under:
 

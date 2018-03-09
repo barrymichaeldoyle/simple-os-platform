@@ -1,20 +1,20 @@
 {
-	"title": "GUID",
-	"name": "@iplatformglobal/guid",
-	"homepage": "https://www.iplatform.com",
-	"description": "A helper that returns a guid",
+	"title": "get-os",
+	"name": "@barrymichaeldoyle/get-os",
+	"homepage": "https://www.barrymichaeldoyle.com",
+	"description": "A helper that returns the current user's operating system. Eg. \"Windows\", \"Linux\", \"Android\", \"MacOS\", \"iOS\" etc.",
 	"license": "MIT",
 	"browsers": true,
-	"author": "2017+ iPlatform <software@iplatform.co.za> (https://www.iplatform.com)",
+	"author": "Barry Michael Doyle <barry@barrymichaeldoyle.com> (https://www.barrymichaeldoyle.com)",
 	"maintainers": [
-		"Barry Michael Doyle (barry@barrymichaeldoyle.com) (https://www.barrymichaeldoyle.com)"
+		"Barry Michael Doyle <barry@barrymichaeldoyle.com> (https://www.barrymichaeldoyle.com)"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/iPlatformGlobal/guid.git"
+		"url": "https://github.com/BarryMichaelDoyle/get-os.git"
 	},
 	"bugs": {
-		"url": "https://github.com/iPlatformGlobal/guid/issues"
+		"url": "https://github.com/BarryMichaelDoyle/get-os/issues"
 	},
 	"badges": {
 		"list": [
@@ -28,7 +28,7 @@
 			"daviddm",
 		],
 		"config": {
-			"githubUsername": "iPlatformGlobal"
+			"githubUsername": "BarryMichaelDoyle"
 		}
 	}
 }
