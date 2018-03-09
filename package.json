@@ -1,7 +1,7 @@
 {
   "name": "@barrymichaeldoyle/get-os",
   "version": "1.0.0",
-  "description": "A helper that returns the current user's operating system. Eg. \"Windows\", \"Linux\", \"Android\", \"MacOS\", \"iOS\" etc.",
+  "description": "A helper that returns a simplified version the current user's operating system. Eg. \"Windows\", \"Linux\", \"Android\", \"Mac\", \"iOS\" etc.",
   "main": "build/index.js",
   "scripts": {
     "compile": "projectz compile",
