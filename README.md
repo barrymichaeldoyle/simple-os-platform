@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>get-os</h1>
+<h1>getOS</h1>
 
 <!-- /TITLE -->
 
