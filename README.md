@@ -26,7 +26,7 @@ A helper that returns the current user's operating system. Eg. "Windows", "Linux
 
 ## List of Possible Results
 
-<ol>
+<ul>
   <li>Android</li>
   <li>BlackBerry</li>
   <li>Firefox OS</li>
@@ -41,7 +41,7 @@ A helper that returns the current user's operating system. Eg. "Windows", "Linux
   <li>SunOS</li>
   <li>Symbian</li>
   <li>Windows</li>
-</ol>
+</ul>
 
 If the user's operating system doesn't fall under the category of any of these list items, then the `window.navigator.platform` result will be returned instead.
 
