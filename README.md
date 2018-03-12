@@ -61,7 +61,6 @@ Here's an example of a component that renders a shortcut phrase based off the us
 ```javascript
 import getOS from '@barrymichaeldoyle/get-os'
 
-// Renders 'cmd' if operating system is MacOS, otherwise renders 'ctrl'
 const ShortcutPhrase = () => `${getOS() === 'Mac' ? 'cmd' : 'ctrl'} + click`;
 
 export default ShortcutPhrase;
