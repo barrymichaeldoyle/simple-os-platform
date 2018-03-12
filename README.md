@@ -24,13 +24,12 @@ A helper that returns the current user's operating system. Eg. "Windows", "Linux
 <!-- /BADGES -->
 
 ## Installation
-```
-yarn add simple-os-platform or
+
+`yarn add simple-os-platform`
 
 or
 
-npm install simple-os-platform
-```
+`npm install simple-os-platform`
 
 ## Usage
 
