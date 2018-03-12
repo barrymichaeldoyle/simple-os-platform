@@ -24,27 +24,6 @@ A helper that returns the current user's operating system. Eg. "Windows", "Linux
 
 <!-- /BADGES -->
 
-## List of Possible Results
-
-<ul>
-  <li>Android</li>
-  <li>BlackBerry</li>
-  <li>Firefox OS</li>
-  <li>FreeBSD</li>
-  <li>iOS</li>
-  <li>Linux</li>
-  <li>Mac</li>
-  <li>Nintendo</li>
-  <li>OpenBSD</li>
-  <li>Palm</li>
-  <li>PlayStation</li>
-  <li>SunOS</li>
-  <li>Symbian</li>
-  <li>Windows</li>
-</ul>
-
-If the user's operating system doesn't fall under the category of any of these list items, then the `window.navigator.platform` result will be returned instead.
-
 ## Installation
 ```
 yarn add @barrymichaeldoyle/get-os or
@@ -67,7 +46,28 @@ export default ShortcutPhrase;
 
 ```
 
-If the user's operating system is a Mac, the shortcut phrase renders 'cmd + click', otherwise it renders 'ctrl + click'.
+If the user's operating system is a `Mac`, the shortcut phrase renders `cmd + click`, otherwise it renders `ctrl + click`.
+
+## List of Possible Results
+
+<ul>
+  <li>Android</li>
+  <li>BlackBerry</li>
+  <li>Firefox OS</li>
+  <li>FreeBSD</li>
+  <li>iOS</li>
+  <li>Linux</li>
+  <li>Mac</li>
+  <li>Nintendo</li>
+  <li>OpenBSD</li>
+  <li>Palm</li>
+  <li>PlayStation</li>
+  <li>SunOS</li>
+  <li>Symbian</li>
+  <li>Windows</li>
+</ul>
+
+If the user's operating system doesn't fall under the category of any of these list items, then the `window.navigator.platform` result will be returned instead.
 
 ## Testing
 
