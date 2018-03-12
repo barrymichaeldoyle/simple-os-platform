@@ -16,7 +16,7 @@ A helper that returns the current user's operating system. Eg. "Windows", "Linux
 
 <span class="badge-nodeico"><a href="https://www.npmjs.com/package/simple-os-platform" title="Nodei.co badge"><img src="https://nodei.co/npm/simple-os-platform.png" alt="Nodei.co badge" /></a></span>
 <br class="badge-separator" />
-<span class="badge-travisci"><a href="http://travis-ci.org/barrymichaeldoyle/simple-os-platform" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/BarryMichaelDoyle/simple-os-platform/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/barrymichaeldoyle/simple-os-platform" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/barrymichaeldoyle/simple-os-platform/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/simple-os-platform" title="View this project on NPM"><img src="https://img.shields.io/npm/v/simple-os-platform.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/simple-os-platform" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/simple-os-platform.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/BarryMichaelDoyle/simple-os-platform" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/BarryMichaelDoyle/simple-os-platform.svg" alt="Dependency Status" /></a></span>
