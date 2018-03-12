@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>getOS</h1>
+<h1>Simple OS Platform</h1>
 
 <!-- /TITLE -->
 
@@ -14,22 +14,22 @@ A helper that returns the current user's operating system. Eg. "Windows", "Linux
 
 <!-- BADGES/ -->
 
-<span class="badge-nodeico"><a href="https://www.npmjs.com/package/@BarryMichaelDoyle/get-os" title="Nodei.co badge"><img src="https://nodei.co/npm/@BarryMichaelDoyle/get-os.png" alt="Nodei.co badge" /></a></span>
+<span class="badge-nodeico"><a href="https://www.npmjs.com/package/simple-os-platform" title="Nodei.co badge"><img src="https://nodei.co/npm/simple-os-platform.png" alt="Nodei.co badge" /></a></span>
 <br class="badge-separator" />
-<span class="badge-travisci"><a href="http://travis-ci.org/BarryMichaelDoyle/get-os" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/BarryMichaelDoyle/get-os/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/@BarryMichaelDoyle/get-os" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@BarryMichaelDoyle/get-os.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@BarryMichaelDoyle/get-os" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@BarryMichaelDoyle/get-os.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/BarryMichaelDoyle/get-os" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/BarryMichaelDoyle/get-os.svg" alt="Dependency Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/BarryMichaelDoyle/simple-os-platform" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/BarryMichaelDoyle/simple-os-platform/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/simple-os-platform" title="View this project on NPM"><img src="https://img.shields.io/npm/v/simple-os-platform.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/simple-os-platform" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/simple-os-platform.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/BarryMichaelDoyle/simple-os-platform" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/BarryMichaelDoyle/simple-os-platform.svg" alt="Dependency Status" /></a></span>
 
 <!-- /BADGES -->
 
 ## Installation
 ```
-yarn add @barrymichaeldoyle/get-os or
+yarn add simple-os-platform or
 
 or
 
-npm install @barrymichaeldoyle/get-os
+npm install simple-os-platform
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ npm install @barrymichaeldoyle/get-os
 Here's an example of a component that renders a shortcut phrase based off the user's operating system:
 
 ```javascript
-import getOS from '@barrymichaeldoyle/get-os'
+import getOS from 'simple-os-platform'
 
 const ShortcutPhrase = () => `${getOS() === 'Mac' ? 'cmd' : 'ctrl'} + click`;
 
@@ -93,7 +93,7 @@ There are git hooks configured to ensure commit message format as well as test a
 
 <h2>History</h2>
 
-<a href="https://github.com/BarryMichaelDoyle/get-os/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/BarryMichaelDoyle/simple-os-platform/releases">Discover the release history by heading on over to the releases page.</a>
 
 <!-- /HISTORY -->
 

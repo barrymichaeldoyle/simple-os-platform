@@ -1,6 +1,6 @@
 {
-	"title": "get-os",
-	"name": "@barrymichaeldoyle/get-os",
+	"title": "simple-os-platform",
+	"name": "simple-os-platform",
 	"homepage": "https://www.barrymichaeldoyle.com",
 	"description": "A helper that returns the current user's operating system. Eg. \"Windows\", \"Linux\", \"Android\", \"MacOS\", \"iOS\" etc.",
 	"license": "MIT",
@@ -11,10 +11,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/BarryMichaelDoyle/get-os.git"
+		"url": "https://github.com/BarryMichaelDoyle/simple-os-platform.git"
 	},
 	"bugs": {
-		"url": "https://github.com/BarryMichaelDoyle/get-os/issues"
+		"url": "https://github.com/BarryMichaelDoyle/simple-os-platform/issues"
 	},
 	"badges": {
 		"list": [
