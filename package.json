@@ -1,6 +1,6 @@
 {
   "name": "simple-os-platform",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A helper that returns a simplified version the current user's operating system. Eg. \"Windows\", \"Linux\", \"Android\", \"Mac\", \"iOS\" etc.",
   "main": "build/index.js",
   "scripts": {
