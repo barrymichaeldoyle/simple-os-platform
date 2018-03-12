@@ -6,7 +6,6 @@
 
 
 <!-- DESCRIPTION/ -->
-<h2>NB: This package hasn't been deployed to npm yet, and lacks test coverage. That will be coming soon!</h2>
 
 A helper that returns the current user's operating system. Eg. "Windows", "Linux", "Android", "MacOS", "iOS" etc.
 
