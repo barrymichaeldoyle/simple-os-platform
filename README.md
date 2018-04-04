@@ -37,7 +37,7 @@ Here's an example of a component that renders a shortcut phrase based off the us
 
 ```javascript
 // ES6/ES7/ESNext
-import { getOS isMac, isNotMac } from 'simple-os-platform'
+import { getOS, isMac, isNotMac } from 'simple-os-platform'
 
 getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
 isMac(); // returns true if your operating system is a Mac
