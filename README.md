@@ -36,14 +36,19 @@ or
 Here's an example of a component that renders a shortcut phrase based off the user's operating system:
 
 ```javascript
-import getOS from 'simple-os-platform'
+// ES6/ES7/ESNext
+import getOS, { isMac, isNotMac } from 'simple-os-platform'
 
 getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
 isMac(); // returns true if your operating system is a Mac
 isNotMac(); // returns false if your operating system is a Mac
 
-export default ShortcutPhrase;
+// CommonJS
+var getOS = require('simple-os-platform');
 
+getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
+getOS.isMac(); // returns true if your operating system is a Mac
+getOS.isNotMac(); // returns false if your operating system is a Mac
 ```
 
 If the user's operating system is a `Mac`, the shortcut phrase renders `cmd + click`, otherwise it renders `ctrl + click`.
@@ -78,6 +83,8 @@ Testing is handled by `Jest` and the packages has the following commands setup
 
 ## Contributing
 
+<strong>TODO:</strong> Write Unit Tests for the isHelpers
+
 All contributions are welcome, and can be done by cloning the repo and running `yarn install`.
 
 Ensure that there are no errors in the tests or linter and ensure that your commit messages comply to the following format:
@@ -88,7 +95,6 @@ Ensure that there are no errors in the tests or linter and ensure that your comm
 * none: COMMIT_MSG - used for simple updates like documentation, aka NO code has changed.
 
 There are git hooks configured to ensure commit message format as well as test and linter compliance.
-
 
 <!-- HISTORY/ -->
 
