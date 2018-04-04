@@ -37,18 +37,18 @@ Here's an example of a component that renders a shortcut phrase based off the us
 
 ```javascript
 // ES6/ES7/ESNext
-import getOS, { isMac, isNotMac } from 'simple-os-platform'
+import { getOS isMac, isNotMac } from 'simple-os-platform'
 
 getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
 isMac(); // returns true if your operating system is a Mac
 isNotMac(); // returns false if your operating system is a Mac
 
 // CommonJS
-var getOS = require('simple-os-platform');
+var simpleOSPlatform = require('simple-os-platform');
 
-getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
-getOS.isMac(); // returns true if your operating system is a Mac
-getOS.isNotMac(); // returns false if your operating system is a Mac
+simpleOSPlatform.getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
+simpleOSPlatform.isMac(); // returns true if your operating system is a Mac
+simpleOSPlatform.isNotMac(); // returns false if your operating system is a Mac
 ```
 
 If the user's operating system is a `Mac`, the shortcut phrase renders `cmd + click`, otherwise it renders `ctrl + click`.
