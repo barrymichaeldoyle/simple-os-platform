@@ -38,8 +38,9 @@ Here's an example of a component that renders a shortcut phrase based off the us
 ```javascript
 import getOS from 'simple-os-platform'
 
-const ShortcutPhrase = () =>
-  `${getOS() === 'Mac' ? 'cmd' : 'ctrl'} + click`;
+getOS(); // returns your Operating System Eg. Mac, Windows etc (see list below)
+isMac(); // returns true if your operating system is a Mac
+isNotMac(); // returns false if your operating system is a Mac
 
 export default ShortcutPhrase;
 
@@ -47,23 +48,23 @@ export default ShortcutPhrase;
 
 If the user's operating system is a `Mac`, the shortcut phrase renders `cmd + click`, otherwise it renders `ctrl + click`.
 
-## List of Possible Results
+## List of Possible Results [helper boolean functions]
 
 <ul>
-  <li>Android</li>
-  <li>BlackBerry</li>
-  <li>Firefox OS</li>
-  <li>FreeBSD</li>
-  <li>iOS</li>
-  <li>Linux</li>
-  <li>Mac</li>
-  <li>Nintendo</li>
-  <li>OpenBSD</li>
-  <li>Palm</li>
-  <li>PlayStation</li>
-  <li>SunOS</li>
-  <li>Symbian</li>
-  <li>Windows</li>
+  <li>Android [isAndroid, isNotAndroid]</li>
+  <li>BlackBerry [isBlackBerry, isNotBlackBerry]</li>
+  <li>FirefoxOS [isFirefoxOS, isNotFirefoxOs]</li>
+  <li>FreeBSD [isFreeBSD, isNotFreeBSD]</li>
+  <li>iOS [isIOS, isNotIOS]</li>
+  <li>Linux [isLinux, isNotLinux]</li>
+  <li>Mac [isMac, isNotMac]</li>
+  <li>Nintendo [isNintendo, isNotNintendo]</li>
+  <li>OpenBSD [isOpenBSD, isNotOpenBSD]</li>
+  <li>Palm [isPalm, isNotPalm]</li>
+  <li>PlayStation [isPlayStation, isNotPlayStation]</li>
+  <li>SunOS [isSunOS, isNotSunOS]</li>
+  <li>Symbian [isSymbian, isNotSymbian]</li>
+  <li>Windows [isWindows, isNotWindows]</li>
 </ul>
 
 If the user's operating system doesn't fall under the category of any of these list items, then the `window.navigator.platform` result will be returned instead.
